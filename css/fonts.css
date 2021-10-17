@@ -38,3 +38,10 @@
     font-family: 'circular-b';
     src: url('../fonts/CircularStd-Bold.ttf');
 }
+@font-face {
+    font-family: 'circular-m';
+    src: url('../fonts/CircularStd-Medium.ttf');
+}@font-face {
+    font-family: 'Varela Round';
+    src: url('../fonts/VarelaRound-Regular.ttf');
+}
