@@ -13,7 +13,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    z-index: -2;
+    z-index: 0;
 }
 
 .Vector{
@@ -29,7 +29,6 @@
     width: 1570px;
     height: 47px;
     margin: 37px auto 0;
-    /* background: #da2525; */
     z-index: 1;
     display: flex;
     align-items: center;
@@ -115,7 +114,6 @@
 .newstr{
     display: flex;
     position: relative;
-    /* border: 1px solid #000; */
 }
 .strbtn{
     position: absolute;
@@ -171,7 +169,6 @@
     height: 829.14px;
     left: 1083px;
     top: 179px;
-    /* border: 1px solid #000; */
 }
 .girl{
     position: absolute;
@@ -284,7 +281,6 @@
     height: 53.48px;
     left: 498px;
     top: 268px;
-    /* border: 1px solid #000; */
     display: flex;
     justify-content: space-between;
 }
@@ -326,7 +322,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid #000; */
 }
 .count h2{
     font-family: 'roboto-m';
@@ -418,4 +413,93 @@
     background: #FFFFFF;
     border-radius: 23.4905px;
     box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+.payment{
+    width: 367.64px;
+    height: 74px;
+    border-bottom: 1px solid #E5EFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.payment:nth-child(3){
+    border-bottom: transparent;
+}
+.payment:nth-child(3) svg{
+    margin: 0 0 0 79px;
+}
+.payment img{
+    width: 79.62px;
+    height: 32.78px;
+    left: 1356.98px;
+    top: 673.1px;
+    margin: 0 0 0 45px;
+}
+.payment:nth-child(2) img{
+    width: 93.67px;
+    height: 52.69px;
+    margin: 0 0 0 38px;
+}
+
+.payment h4{
+    width: 92.5px;
+    top: 680.12px;
+    font-family: 'roboto-r';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    color: #94A2B3;
+}
+.clicker{
+    width: 46.83px;
+    height: 23.42px;
+    left: 1619.25px;
+    top: 685.98px;
+    background: #70C217;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.wdot{
+    width: 16.39px;
+    height: 16.39px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin:0 3.51px;
+}
+.clicker1{
+    width: 46.83px;
+    height: 23.42px;
+    background: #DAE5F7;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.wdot1{
+    width: 16.39px;
+    height: 16.39px;
+    left: 1622.76px;
+    top: 837.01px;
+    border-radius: 50%;
+    background: #8161F7;
+    margin: 0 0 0 26.93px;
+}
+.commerce{
+    position: absolute;
+    width: 457px;
+    height: 140px;
+    left: 720px;
+    top: 992px;
+    font-family: 'circular-b';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+    color: #272D4E;
+} */
